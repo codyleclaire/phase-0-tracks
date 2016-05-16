@@ -4,6 +4,7 @@
 
 * What is version control?  Why is it useful?
 	* Version control allows us to view the entire history of revisions to one or more files, and merge revisions made by different people.
+    * Version control systems are essential for any form of distributed, collaborative development. 
 * What is a branch and why would you use one?
 	* A branch copies what is in a repo and becomes a working copy that is safe to build and experiment from.
 	* Changes are isolated in separate branches. If you decide not to implement a change or new feature, you simply decide not to merge that branch into the master branch.
