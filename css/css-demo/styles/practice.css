@@ -1,0 +1,15 @@
+section#contact-info {
+  font-size: .8em
+}
+
+.job {
+  border-radius: 25px;
+  background-color: #e9e5dc;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.bullets {
+  font-size: .8em
+}
