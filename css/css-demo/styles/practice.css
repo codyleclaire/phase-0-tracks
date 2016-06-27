@@ -1,3 +1,13 @@
+/* What does the "Cascading" part of Cascading Style Sheets mean? When there is a conflict between two CSS rules that select the same element, how does your browser decide which rule to use?
+A: Cascading defines the order for precedence for how styles should be applied. When there is a conflict, the broweser will first try to find a match between selector and element; then it will look for selectors marked more important or more specific than others.*/
+
+/* What is a pseudoselector? Write a CSS rule that uses a pseudoselector.
+A: A pseudo-class is used to define a special state of an element. i have implemented a psuedo-class on the jobs selector.
+*/
+
+/* I sort of understand Child elements but am having a hard time implementing this in the CSS file. Pairing this assignment probably would have helped but I am behind. I am chosing to stick to my time box and finalize this project.
+*/
+
 section#contact-info {
   font-size: .8em
 }
@@ -9,7 +19,11 @@ section#contact-info {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+.job:hover {
+  background-color: #eee;
+}
 
 .bullets {
   font-size: .8em
 }
+
