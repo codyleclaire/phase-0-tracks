@@ -1,21 +1,25 @@
-section#octopus {
-  position: relative;
-  margin: auto;
-  width: 50%;
-  padding: 70px;
-  z-index: -1;
+#octopus {
+  margin-top: 75px !important;
+  margin-bottom: 50px !important;
+  margin-right: 50pt !important;
+  margin-left: 50pt !important;
+  position: absolute;
+  z-index: -1
 }
 
-section#glasses {
+#glasses {
+  margin-top: 175px !important;
+  margin-bottom: 25px !important;
+  margin-right: 300px !important;
+  margin-left: 110px !important;
   position: absolute;
-  left:0;
-  top:0;
-  z-index: 0;
+  z-index: 1
 }
 
-section#hat {
+#hat {
+  margin-top: 10px !important;
+  margin-bottom: 125px !important;
+  margin-right: 50pt !important;
+  margin-left: 35pt !important;
   position: absolute;
-  left:0px;
-  top:0px;
-  z-index: +1;
 }
