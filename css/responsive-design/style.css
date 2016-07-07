@@ -9,9 +9,10 @@ body {
 }
 
 main {
-  width: 756px
+  position: absolute;
+  min-width: 756px
   display: inline;
-  padding-left: 250px;
+  padding-left: 25%;
 }
 
 cite {
@@ -21,9 +22,12 @@ cite {
 
 #external-links {
   position: absolute;
-  width: 200px
+  width: 20%
+  float: left;
+  display: inline;
   vertical-align: top;
-  padding-left: 10px;
+  padding: 10px;
+
 }
 
 #external-links ul {
@@ -46,4 +50,24 @@ figure {
 figcaption {
   font-style: italic;
   text-align: right;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: hotpink;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+   body { font-size: 2em; }
+
+}
+
+@media only screen and (orientation: landscape) {
+    body {
+        background-color: lightblue;
+    }
+
 }
