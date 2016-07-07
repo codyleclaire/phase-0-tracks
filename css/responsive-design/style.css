@@ -10,6 +10,8 @@ body {
 
 main {
   width: 756px
+  display: inline;
+  padding-left: 250px;
 }
 
 cite {
@@ -20,8 +22,7 @@ cite {
 #external-links {
   position: absolute;
   width: 200px
-  vertical-align: middle;
-  display: inline;
+  vertical-align: top;
   padding-left: 10px;
 }
 
