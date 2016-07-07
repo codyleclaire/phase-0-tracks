@@ -4,9 +4,25 @@ blockquote {
   margin-left: 0px;
 }
 
+body {
+  max-width: 960px;
+}
+
+main {
+  width: 756px
+}
+
 cite {
   display: block;
   margin-top: 10px;
+}
+
+#external-links {
+  position: absolute;
+  width: 200px
+  vertical-align: middle;
+  display: inline;
+  padding-left: 10px;
 }
 
 #external-links ul {
@@ -15,7 +31,7 @@ cite {
 }
 
 /* you're welcome to edit the
-image, figure, and figcaption CSS if you'd like, 
+image, figure, and figcaption CSS if you'd like,
 but it's optional! */
 img {
   width: 100%;
